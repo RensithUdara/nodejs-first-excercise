@@ -2,6 +2,8 @@ function printName(name) {
     console.log(name);
 }
 
-printName(
-    "Rensith Udara"
-);
+// printName(
+//     "Rensith Udara"
+// );
+
+console.log(process);
