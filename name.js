@@ -6,4 +6,4 @@ function printName(name) {
 //     "Rensith Udara"
 // );
 
-console.log(process.argv[2]); 
+console.log("My name is "+ process.argv[2]); 
