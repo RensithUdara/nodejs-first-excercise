@@ -2,10 +2,9 @@ function printName(name) {
     console.log(name);
 }
 
-// printName(
-//     "Rensith Udara"
-// );
+// Uncomment the line below to use the printName function
+// printName("Rensith Udara");
 
-console.log("My name is "+ process.argv[2]+".");
-console.log("I am from "+ passInt(process.argv[3])+"."); 
-console.log("I am "+ process.argv[4] + " years old."); 
+console.log("My name is " + process.argv[2] + ".");
+console.log("I am from " + parseInt(process.argv[3]) + ".");
+console.log("I am " + process.argv[4] + " years old.");
