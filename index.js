@@ -9,6 +9,7 @@ console.log("This is a test file 6.");
 
 setTimeout(() => {
     console.log("This is a test file 7.");
+    process.exit(0);
 }, 1000);
 
 setTimeout(() => {
